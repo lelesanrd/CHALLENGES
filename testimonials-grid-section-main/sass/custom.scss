@@ -1,0 +1,33 @@
+$font-family-sans-serif: "Barlow Semi Condensed", sans-serif;
+
+$primary: #733fc8;
+$secondary: #49556b;
+$success: #18202d;
+$info: #edf2f8;
+$warning: #acacac;
+
+@media (min-width: 992px) {
+  .alto-viewport {
+    height: 100vh;
+  }
+}
+
+.d-flex img{
+    width: 50px;
+}
+
+.fondo-card{
+    background-image: url('../images/bg-pattern-quotation.svg');
+    background-repeat: no-repeat;
+    background-position: 85% top;
+}
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 960px,
+  xxl: 960px
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
